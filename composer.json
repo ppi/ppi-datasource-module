@@ -1,0 +1,30 @@
+{
+    "name": "ppi/datasource",
+    "description": "PPI module to pull in the ppi/datasource component",
+    "keywords": ["ppi", "datasource", "framework", "mysql", "mongodb", "doctrine", "laravel", "zend"],
+    "homepage": "https://github.com/ppi/ppi-bower-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Dragoonis",
+            "email": "paul@ppi.io"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/ppi",
+        "issues": "https://github.com/ppi/ppi-datasource-module/issues"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "3.7.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "PPI\\PPIDataSourceModule\\": "src/",
+            "PPI\\PPIDataSourceModule\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev"
+}
