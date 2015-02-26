@@ -15,7 +15,8 @@
         "issues": "https://github.com/ppi/ppi-datasource-module/issues"
     },
     "require": {
-        "ppi/datasource": "dev-master"  
+        "ppi/datasource": "dev-develop",
+        "ppi/framework": "dev-develop"  
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*"
@@ -25,8 +26,8 @@
     },
     "autoload": {
         "psr-4": {
-            "PPI\\PPIDataSourceModule\\": "src/",
-            "PPI\\PPIDataSourceModule\\Tests\\": "tests"
+            "PPI\\DataSourceModule\\": "src/",
+            "PPI\\DataSourceModule\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev"
