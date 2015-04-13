@@ -2,7 +2,7 @@
     "name": "ppi/datasource-module",
     "description": "PPI module to pull in the ppi/datasource component",
     "keywords": ["ppi", "datasource", "framework", "mysql", "mongodb", "doctrine", "laravel", "zend", "fuelphp"],
-    "homepage": "https://github.com/ppi/ppi-bower-module",
+    "homepage": "https://github.com/ppi/ppi-datasource-module",
     "license": "MIT",
     "authors": [
         {
