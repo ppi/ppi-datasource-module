@@ -15,8 +15,7 @@
         "issues": "https://github.com/ppi/ppi-datasource-module/issues"
     },
     "require": {
-        "ppi/datasource": "~1.0",
-        "ppi/framework": "~2.1.0-alpha2"
+        "ppi/datasource": "~1.0"
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*"
