@@ -9,7 +9,7 @@
 
 namespace PPI\DataSourceModule;
 
-use PPI\Autoload;
+use PPI\Framework\Autoload;
 use PPI\Framework\Module\AbstractModule;
 use PPI\DataSourceModule\Factory\DataSourceFactory;
 
