@@ -19,9 +19,14 @@ use PPI\DataSourceModule\Factory\DataSourceFactory;
 class Module extends AbstractModule
 {
 
+    public function init($e)
+    {
+        Autoload::add(__NAMESPACE__, dirname(__DIR__));
+    }
+
     public function getName()
     {
-        return 'DataSourceModule';
+        return 'PPI\DataSourceModule';
     }
 
     public function getServiceConfig()
